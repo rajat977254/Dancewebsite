@@ -1,0 +1,64 @@
+//- index.pug
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+              img(src="/static/img/logoD1.png")
+              //- | DA
+            li #[a(href = '/') Home] 
+            li #[a(href = '/') About ]
+            li #[a(href = '/') Services]
+            li #[a(href = '/') Class info]
+            li #[a(href = '/') Contact us]
+   
+    section#introsection
+     div Welcome to my Dance Academy 
+     div.small  LIVE LEARN DANCE REPEAT
+   
+    section#missionsection 
+     h2 Our Mission
+     div.card 
+      h3 Dance Perfection
+       div.card-box
+        div.card-img 
+          img(src="/static/img/img1.png")
+        div.card-content 
+          p This is the best Dance Academy of the universe.  
+      
+
+
+     div.card 
+      h3 Love the way you Dance
+       div.card-box
+        div.card-img 
+          img(src="/static/img/img2.png")
+        div.card-content 
+          p This is the best Dance Academy of the universe.  
+     div.card 
+      h3 Expert Teaching 
+       div.card-box
+        div.card-img 
+          img(src="/static/img/img3.jpg")
+        div.card-content 
+          p This is the best Dance Academy of the universe.  
+
+    section#sponsorsection 
+     h2 Our Sponsors
+     div#sponsers 
+      img(src="/static/img/sp1.png", alt="sponser image", class="spimage")
+      img(src="/static/img/sp2.jpg", alt="sponser image", class="spimage")
+      img(src="/static/img/sp3.jpg", alt="sponser image", class="spimage")
+      img(src="/static/img/sp4.png", alt="sponser image", class="spimage")
+
+
+    footer#footer 
+     | Copyright © 2021 DanceAcademy.com | All Rights  Reserved
+   
+    script
+      include ../static/index.js

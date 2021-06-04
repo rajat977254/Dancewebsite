@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 15px;
+    
+}
+#logo img{
+    height: 30px;
+    width: 28px;
+    filter: invert(1);
+
+}
+#navbar{
+ background-color: rgb(48, 18, 18);
+ padding: 10px 14px;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 6px 25px;
+    color: white;
+    font-size: 1.1rem;
+    
+}
+#navbar li a:hover{
+   color: rgba(128, 128, 128, 0.904);
+   font-weight: bold;
+    }
+
+#introsection{
+    font-family: 'KoHo', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: center/ cover no-repeat url('../static/bg.jpg');
+    height: 400px;
+    background-color: aqua;
+    padding-bottom: 40px;
+    
+}
+
+#introsection div.small{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+#missionsection{
+    height: 330px;
+    background-color: blanchedalmond;
+ 
+}
+
+
+#missionsection h2{
+    font-size: 30px ;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+.card{
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 200px;
+   
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 8px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 120px;
+    padding: 0px 14px;
+    margin: 20px 5px;
+}
+.card-img img{
+    height: inherit;
+    width: 150px;
+    filter: invert(1);
+}
+
+.card-content{
+    padding: 8px;
+}
+
+#sponsorsection{
+    height: 300px;
+    background-color: rgba(243, 171, 199, 0.732);
+    
+    
+}
+#sponsorsection h2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+
+#sponsers{
+    height: 180px;
+    /* max-width: 1200px; */
+    margin: auto;
+    margin-left: 15px;
+}
+.spimage{
+    height: 70%;
+    margin: 55px 45px;
+    filter: invert(1)
+}
+#footer{
+    display: flex;
+    height: 75px;
+    background-color: rgb(13, 14, 14);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
